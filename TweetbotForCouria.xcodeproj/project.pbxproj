@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEDFA42E1797BDE7003AA100 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDFA42D1797BDE7003AA100 /* Foundation.framework */; };
+		FEDFA4381797BDE8003AA100 /* TweetbotForCouria.mm in Sources */ = {isa = PBXBuildFile; fileRef = FEDFA4371797BDE8003AA100 /* TweetbotForCouria.mm */; };
+		FEDFA4431797BF4E003AA100 /* Couria.h in Headers */ = {isa = PBXBuildFile; fileRef = FEDFA4421797BF4E003AA100 /* Couria.h */; };
+		FEDFA4451797C559003AA100 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDFA4441797C559003AA100 /* UIKit.framework */; };
+		FEDFA4491797E139003AA100 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDFA4481797E139003AA100 /* Accounts.framework */; };
+		FEDFA44B1797E6F9003AA100 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEDFA44A1797E6F8003AA100 /* Social.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FEDFA42A1797BDE7003AA100 /* TweetbotForCouria.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = TweetbotForCouria.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEDFA42D1797BDE7003AA100 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FEDFA4331797BDE7003AA100 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		FEDFA4351797BDE8003AA100 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		FEDFA4361797BDE8003AA100 /* TweetbotForCouria-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TweetbotForCouria-Prefix.pch"; sourceTree = "<group>"; };
+		FEDFA4371797BDE8003AA100 /* TweetbotForCouria.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TweetbotForCouria.mm; sourceTree = "<group>"; };
+		FEDFA43C1797BDE8003AA100 /* TweetbotForCouria.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = TweetbotForCouria.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/TweetbotForCouria.plist; sourceTree = "<group>"; };
+		FEDFA4421797BF4E003AA100 /* Couria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Couria.h; sourceTree = "<group>"; };
+		FEDFA4441797C559003AA100 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FEDFA4481797E139003AA100 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		FEDFA44A1797E6F8003AA100 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		FEDFA450179814DA003AA100 /* Extension.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Extension.plist; sourceTree = "<group>"; };
+		FEDFA452179814DA003AA100 /* Extension.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Extension.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEDFA4261797BDE7003AA100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDFA4491797E139003AA100 /* Accounts.framework in Frameworks */,
+				FEDFA44B1797E6F9003AA100 /* Social.framework in Frameworks */,
+				FEDFA4451797C559003AA100 /* UIKit.framework in Frameworks */,
+				FEDFA42E1797BDE7003AA100 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEDFA4201797BDE7003AA100 = {
+			isa = PBXGroup;
+			children = (
+				FEDFA42F1797BDE7003AA100 /* TweetbotForCouria */,
+				FEDFA42C1797BDE7003AA100 /* Frameworks */,
+				FEDFA42B1797BDE7003AA100 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEDFA42B1797BDE7003AA100 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEDFA42A1797BDE7003AA100 /* TweetbotForCouria.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEDFA42C1797BDE7003AA100 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEDFA42D1797BDE7003AA100 /* Foundation.framework */,
+				FEDFA4441797C559003AA100 /* UIKit.framework */,
+				FEDFA4481797E139003AA100 /* Accounts.framework */,
+				FEDFA44A1797E6F8003AA100 /* Social.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEDFA42F1797BDE7003AA100 /* TweetbotForCouria */ = {
+			isa = PBXGroup;
+			children = (
+				FEDFA4421797BF4E003AA100 /* Couria.h */,
+				FEDFA4371797BDE8003AA100 /* TweetbotForCouria.mm */,
+				FEDFA4301797BDE7003AA100 /* Package */,
+				FEDFA4341797BDE8003AA100 /* Supporting Files */,
+			);
+			path = TweetbotForCouria;
+			sourceTree = "<group>";
+		};
+		FEDFA4301797BDE7003AA100 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				FEDFA4311797BDE7003AA100 /* DEBIAN */,
+				FEDFA4391797BDE8003AA100 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		FEDFA4311797BDE7003AA100 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				FEDFA4331797BDE7003AA100 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		FEDFA4341797BDE8003AA100 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEDFA4351797BDE8003AA100 /* PackageVersion.plist */,
+				FEDFA4361797BDE8003AA100 /* TweetbotForCouria-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEDFA4391797BDE8003AA100 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				FEDFA44C179814DA003AA100 /* Application Support */,
+				FEDFA43A1797BDE8003AA100 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		FEDFA43A1797BDE8003AA100 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				FEDFA43B1797BDE8003AA100 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		FEDFA43B1797BDE8003AA100 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				FEDFA43C1797BDE8003AA100 /* TweetbotForCouria.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+		FEDFA44C179814DA003AA100 /* Application Support */ = {
+			isa = PBXGroup;
+			children = (
+				FEDFA44D179814DA003AA100 /* Couria */,
+			);
+			name = "Application Support";
+			path = "Package/Library/Application Support";
+			sourceTree = "<group>";
+		};
+		FEDFA44D179814DA003AA100 /* Couria */ = {
+			isa = PBXGroup;
+			children = (
+				FEDFA44E179814DA003AA100 /* Extensions */,
+			);
+			path = Couria;
+			sourceTree = "<group>";
+		};
+		FEDFA44E179814DA003AA100 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FEDFA44F179814DA003AA100 /* com.tapbots.Tweetbot */,
+				FEDFA451179814DA003AA100 /* com.tapbots.TweetbotPad */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FEDFA44F179814DA003AA100 /* com.tapbots.Tweetbot */ = {
+			isa = PBXGroup;
+			children = (
+				FEDFA450179814DA003AA100 /* Extension.plist */,
+			);
+			path = com.tapbots.Tweetbot;
+			sourceTree = "<group>";
+		};
+		FEDFA451179814DA003AA100 /* com.tapbots.TweetbotPad */ = {
+			isa = PBXGroup;
+			children = (
+				FEDFA452179814DA003AA100 /* Extension.plist */,
+			);
+			path = com.tapbots.TweetbotPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FEDFA4271797BDE7003AA100 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDFA4431797BF4E003AA100 /* Couria.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FEDFA4291797BDE7003AA100 /* TweetbotForCouria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEDFA43F1797BDE8003AA100 /* Build configuration list for PBXNativeTarget "TweetbotForCouria" */;
+			buildPhases = (
+				FEDFA4251797BDE7003AA100 /* Sources */,
+				FEDFA4261797BDE7003AA100 /* Frameworks */,
+				FEDFA4271797BDE7003AA100 /* Headers */,
+				FEDFA4281797BDE7003AA100 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TweetbotForCouria;
+			productName = TweetbotForCouria;
+			productReference = FEDFA42A1797BDE7003AA100 /* TweetbotForCouria.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEDFA4211797BDE7003AA100 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Qusic;
+			};
+			buildConfigurationList = FEDFA4241797BDE7003AA100 /* Build configuration list for PBXProject "TweetbotForCouria" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FEDFA4201797BDE7003AA100;
+			productRefGroup = FEDFA42B1797BDE7003AA100 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEDFA4291797BDE7003AA100 /* TweetbotForCouria */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FEDFA4281797BDE7003AA100 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEDFA4251797BDE7003AA100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDFA4381797BDE8003AA100 /* TweetbotForCouria.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FEDFA43D1797BDE8003AA100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				VALID_ARCHS = armv7;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		FEDFA43E1797BDE8003AA100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv7;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		FEDFA4401797BDE8003AA100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TweetbotForCouria/TweetbotForCouria-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		FEDFA4411797BDE8003AA100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TweetbotForCouria/TweetbotForCouria-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEDFA4241797BDE7003AA100 /* Build configuration list for PBXProject "TweetbotForCouria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEDFA43D1797BDE8003AA100 /* Debug */,
+				FEDFA43E1797BDE8003AA100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEDFA43F1797BDE8003AA100 /* Build configuration list for PBXNativeTarget "TweetbotForCouria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEDFA4401797BDE8003AA100 /* Debug */,
+				FEDFA4411797BDE8003AA100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEDFA4211797BDE7003AA100 /* Project object */;
+}

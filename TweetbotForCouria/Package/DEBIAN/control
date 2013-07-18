@@ -1,0 +1,15 @@
+Package: me.qusic.tweetbotforcouria
+Name: Tweetbot for Couria
+Version: 0.1-1
+Description: Example Extension for Couria
+Section: Tweaks
+Installed-Size: 0
+Depends: firmware (>= 6.0), mobilesubstrate, me.qusic.couria
+Priority: optional
+Architecture: iphoneos-arm
+Author: Qusic <QusicS@Me.com>
+Maintainer: Qusic <QusicS@Me.com>
+Sponsor: Qusic.me <http://Qusic.me>
+Homepage: http://Qusic.me/Couria
+Depiction: http://Cydia.Qusic.me/htmls/tweetbotforcouria.html
+Tag: purpose::extension

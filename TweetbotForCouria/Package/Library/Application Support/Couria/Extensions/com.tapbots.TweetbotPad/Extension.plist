@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>Tweetbot for Couria</string>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Only mentions to this account will be handled. And this account should have been set up in iOS Twitter integration to make things work.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>defaults</key>
+			<string>me.qusic.tweetbotforcouria</string>
+			<key>key</key>
+			<string>Username</string>
+			<key>label</key>
+			<string>Username</string>
+			<key>placeholder</key>
+			<string>@twitter</string>
+			<key>isEmail</key>
+			<true/>
+			<key>PostNotification</key>
+			<string>me.qusic.tweetbotforcouria.preferencesChanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>This is just an example extension for Couria and it may be too simple to be useful. So don't expect too much from it. ;P</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>© 2013 Qusic</string>
+		</dict>
+	</array>
+</dict>
+</plist>
